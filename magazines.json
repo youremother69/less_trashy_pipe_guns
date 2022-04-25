@@ -69,7 +69,7 @@
     "material": "steel",
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": [ "9mm" ],
+    "ammo_type": [ "9mm", "45" ],
     "capacity": 6,
     "reliability": 1,
     "reload_time": 150,

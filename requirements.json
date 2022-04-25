@@ -1,0 +1,17 @@
+[ 
+  {
+    "id": "44_casehead",
+    "type": "requirement",
+    "//": "References needed for boltfaces and magazines using .45acp or derivatives",
+    "tools": [
+      [
+        [ "44_casing", -1 ],
+        [ "44magnum", -1 ],
+        [ "44fmj", -1 ],
+        [ "reloaded_44fmj", -1 ],
+		[ "bp_44magnum", -1 ],
+		[ "bp_44fmj", -1 ]
+      ]
+    ]
+  }
+]

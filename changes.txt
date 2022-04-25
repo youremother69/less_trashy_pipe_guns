@@ -24,9 +24,22 @@ version 0.2
 		Offset by the ability to accept almost all common calibers divided between the double barrel and the pepperbox.
 		
 		Intended performance is not affected in practicality, the nerf solely affects ammo economy.
-		
+
+version 0.2
+
+	1. "pepperbox revolver" added. Pistol variant of the pepperbox revolver rifle.	
+	2. "panzerbuechse '4X" added. An upgraded ".50 caliber rifle" with much higher crafting requirements. Performs close to the "Serbu" .50 rifle.
+	3. "handmade handcannon" now actually packs a punch.
+	4. "survivor six-shooter" now accepts more unicorn calibers.
+	5. "double barrel" is now "slam fire rifle", "four shot" is now "slam fire carbine"
+	6. "slam fire: six-shot" removed.
+	7. "handmade handcannon" now actually packs a punch.
+	
+	8. "44_casehead" requirement added. Currently unused.
+	
 	Outstanding issues:
 		>Caliber assignment will need rebalancing.
 		>Weight and volume are more or less arbitrary at the moment.
 		>Same variant rifles loaded different calibers stack for some reason.
-		>"pepperbox revolver rifle" does not update its weight when reloaded.
+		>Weapons do not update their weight when reloaded, vanilla issue.
+		>ASCII art and icons havent been touched.

@@ -92,7 +92,7 @@
       [ [ "oxy_torch", 6 ], [ "welder", 30 ], [ "welder_crude", 45 ], [ "toolset", 45 ] ],
       [ [ "small_repairkit", 150 ], [ "large_repairkit", 30 ] ]
     ],
-    "components": [ [ [ "m2browning_sawn", 1 ] ], [ [ "2x4", 2 ] ], [ [ "scrap", 8 ] ], [ [ "sheet_metal_small", 4 ] ], [ [ "superglue", 2 ], [ "bone_glue", 2 ] ] ]
+    "components": [ [ [ "m2browning_sawn", 1 ], [ "m2browning", 1 ]], [ [ "2x4", 2 ] ], [ [ "scrap", 8 ] ], [ [ "sheet_metal_small", 4 ] ], [ [ "superglue", 2 ], [ "bone_glue", 2 ] ] ]
   },
   {
     "result": "pipe_rifle_cylinder",
@@ -108,7 +108,25 @@
 	  [ [ "pipe_rifle_revolver", -1 ] ],
       [ [ "small_repairkit", 10 ], [ "large_repairkit", 5 ] ]
     ],
-    "using": [ [ "223_casehead", 1 ] ],
+	"using": [ [ "223_casehead", 1 ] ],
+    "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "SCREW", "level": 1 }, { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "pipe", 6 ] ], [ [ "scrap", 2 ] ], [ [ "sheet_metal_small", 2 ] ] ]
+  },
+   {
+    "result": "pipe_rifle_cylinder_308",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MAGAZINES",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "skills_required": [ "gun", 1 ],
+    "time": "20 m",
+    "autolearn": true,
+    "tools": [ 
+	  [ [ "pipe_rifle_revolver", -1 ] ],
+      [ [ "small_repairkit", 10 ], [ "large_repairkit", 5 ] ]
+    ],
+	"using": [ [ "308_casehead", 1 ] ],
     "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "SCREW", "level": 1 }, { "id": "HAMMER", "level": 1 } ],
     "components": [ [ [ "pipe", 6 ] ], [ [ "scrap", 2 ] ], [ [ "sheet_metal_small", 2 ] ] ]
   },
@@ -126,8 +144,157 @@
 	  [ [ "pipe_pistol_revolver", -1 ]],
       [ [ "small_repairkit", 10 ], [ "large_repairkit", 5 ] ]
     ],
+	"using": [ [ "9mm_casehead", 1 ] ],
     "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "SCREW", "level": 1 }, { "id": "HAMMER", "level": 1 } ],
     "components": [ [ [ "pipe", 3 ] ], [ [ "scrap", 2 ] ], [ [ "sheet_metal_small", 2 ] ] ]
+  },
+    {
+    "result": "pipe_pistol_cylinder_45",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MAGAZINES",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "skills_required": [ "gun", 1 ],
+    "time": "20 m",
+    "autolearn": true,
+    "tools": [ 
+	  [ [ "pipe_pistol_revolver", -1 ]],
+      [ [ "small_repairkit", 10 ], [ "large_repairkit", 5 ] ]
+    ],
+	"using": [ [ "45_casehead", 1 ] ],
+    "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "SCREW", "level": 1 }, { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "pipe", 3 ] ], [ [ "scrap", 2 ] ], [ [ "sheet_metal_small", 2 ] ] ]
+  },
+    {
+    "result": "pipe_pistol_cylinder_40",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MAGAZINES",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "skills_required": [ "gun", 1 ],
+    "time": "20 m",
+    "autolearn": true,
+    "tools": [ 
+	  [ [ "pipe_pistol_revolver", -1 ]],
+      [ [ "small_repairkit", 10 ], [ "large_repairkit", 5 ] ]
+    ],
+	"using": [ [ "40_casehead", 1 ] ],
+    "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "SCREW", "level": 1 }, { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "pipe", 3 ] ], [ [ "scrap", 2 ] ], [ [ "sheet_metal_small", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "pipe_retool_22",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "14 m",
+    "reversible": true,
+    "autolearn": true,
+	"tools": [ 
+	  [ [ "rifle_pipe_slam", -1  ], [ "surv_six_shooter", -1  ]]
+	  ],
+    "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "SCREW", "level": 1 } ],
+    "components": [ [ [ "pipe", 2 ] ], [ [ "scrap", 2 ] ]]
+  },
+  {
+    "type": "recipe",
+    "result": "pipe_retool_9mm",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "14 m",
+    "reversible": true,
+    "autolearn": true,
+	"tools": [ 
+	  [ [ "rifle_pipe_slam", -1  ], [ "surv_six_shooter", -1  ]]
+	  ],
+    "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "SCREW", "level": 1 } ],
+    "components": [ [ [ "pipe", 2 ] ], [ [ "scrap", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "pipe_retool_223",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "14 m",
+    "reversible": true,
+    "autolearn": true,
+	"tools": [ 
+	  [ [ "rifle_pipe_slam", -1  ], [ "surv_hand_cannon", -1  ]]
+	  ],
+	"qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "SCREW", "level": 1 } ],
+    "components": [ [ [ "pipe", 2 ] ], [ [ "scrap", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "pipe_retool_308",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "14 m",
+    "reversible": true,
+    "autolearn": true,
+	"tools": [ 
+	  [ [ "rifle_pipe_slam", -1  ], [ "surv_six_shooter", -1  ]]
+	  ],
+    "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "SCREW", "level": 1 } ],
+    "components": [ [ [ "pipe", 2 ] ], [ [ "scrap", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "pipe_retool_45",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "14 m",
+    "reversible": true,
+    "autolearn": true,
+	"tools": [ 
+	  [ [ "rifle_pipe_slam", -1  ], [ "surv_six_shooter", -1  ]]
+	  ],
+    "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "SCREW", "level": 1 } ],
+    "components": [ [ [ "pipe", 2 ] ], [ [ "scrap", 2 ] ] ]
+  },  
+  {
+    "type": "recipe",
+    "result": "pipe_retool_46",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "14 m",
+    "reversible": true,
+    "autolearn": true,
+	"tools": [ 
+	  [ [ "rifle_pipe_slam", -1  ], [ "surv_six_shooter", -1  ]]
+	  ],
+    "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "SCREW", "level": 1 } ],
+    "components": [ [ [ "pipe", 2 ] ], [ [ "scrap", 2 ] ] ]
+  },  
+  {
+    "type": "recipe",
+    "result": "pipe_retool_57",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "14 m",
+    "reversible": true,
+    "autolearn": true,
+	"tools": [ 
+	  [ [ "rifle_pipe_slam", -1  ], [ "surv_six_shooter", -1  ]]
+	  ],
+    "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "SCREW", "level": 1 } ],
+    "components": [ [ [ "pipe", 2 ] ], [ [ "scrap", 2 ] ] ]
   },
   {
     "result": "survivor223mag_large",

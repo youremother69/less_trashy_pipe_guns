@@ -25,7 +25,7 @@ version 0.2
 		
 		Intended performance is not affected in practicality, the nerf solely affects ammo economy.
 
-version 0.2
+version 0.3
 
 	1. "pepperbox revolver" added. Pistol variant of the pepperbox revolver rifle.	
 	2. "panzerbuechse '4X" added. An upgraded ".50 caliber rifle" with much higher crafting requirements. Performs close to the "Serbu" .50 rifle.
@@ -36,6 +36,13 @@ version 0.2
 	7. "handmade handcannon" now actually packs a punch.
 	
 	8. "44_casehead" requirement added. Currently unused.
+
+version 0.4
+
+	1. Several scrap weapon exclusive conversion kits added.
+	2. Several scrap weapons updated with the ability to accept conversion kits.
+	3. Renames the "panzerbuechse" to a more easily understandable "anti-materiel rifle".
+	4. Added several missing crafting recipes.
 	
 	Outstanding issues:
 		>Caliber assignment will need rebalancing.
@@ -43,3 +50,5 @@ version 0.2
 		>Same variant rifles loaded different calibers stack for some reason.
 		>Weapons do not update their weight when reloaded, vanilla issue.
 		>ASCII art and icons havent been touched.
+		>Caliber conversion kits throw up inconsequential errors on loading.
+		>UI displays ids instead of item names when examining a conversion kit.

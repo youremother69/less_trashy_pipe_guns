@@ -3,6 +3,7 @@
     "id": "rifle_pipe_slam",
     "looks_like": "ar15",
     "type": "GUN",
+	"copy-from": "rifle_base",
     "reload_noise_volume": 10,
     "name": { "str": "slam fire pipe", "str_pl": "slam fire pipes" },
     "description": "A homemade rifle.  It is just a pipe fastened to a plank, triggered by slamming the stock forward. Fires whatever you have on hand, though neither well nor true.",
@@ -30,14 +31,14 @@
       [ "accessories", 2 ],
       [ "sling", 1 ],
       [ "stock", 1 ],
-	  [ "bore", 1 ],
+	  [ "makeshift bore", 1 ],
       [ "grip mount", 1 ],
       [ "rail mount", 1 ],
       [ "sights mount", 1 ],
       [ "underbarrel mount", 1 ]
     ],
     "faults": [ "fault_gun_blackpowder", "fault_gun_dirt" ],
-    "flags": [ "RELOAD_EJECT" ]
+    "flags": [ "RELOAD_EJECT", "SCRAP_WEAPON" ]
   },
 	{
     "id": "rifle_pipe_fourshot",
@@ -70,12 +71,13 @@
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "sling", 1 ],
+	  [ "makeshift bore", 1 ],
       [ "stock", 1 ],
       [ "grip mount", 1 ],
       [ "underbarrel mount", 1 ]
     ],
     "faults": [ "fault_gun_blackpowder", "fault_gun_dirt" ],
-    "flags": [ "RELOAD_EJECT", "RELOAD_ONE"]
+    "flags": [ "RELOAD_EJECT", "RELOAD_ONE", "SCRAP_WEAPON"]
   },
   {
     "id": "rifle_pipe_double",
@@ -107,6 +109,7 @@
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "sling", 1 ],
+	  [ "makeshift bore", 1 ],
       [ "stock", 1 ],
       [ "grip mount", 1 ],
       [ "rail mount", 1 ],
@@ -114,7 +117,7 @@
       [ "underbarrel mount", 1 ]
     ],
     "faults": [ "fault_gun_blackpowder", "fault_gun_dirt" ],
-    "flags": [ "RELOAD_EJECT", "RELOAD_ONE" ]
+    "flags": [ "RELOAD_EJECT", "RELOAD_ONE", "SCRAP_WEAPON" ]
   },
   {
     "id": "rifle_pipe_shot",
@@ -145,7 +148,7 @@
     "barrel_length": "500 ml",
     "valid_mod_locations": [
       [ "accessories", 2 ],
-      [ "sling", 1 ],
+      [ "sling", 1 ], 
       [ "stock", 1 ],
       [ "grip mount", 1 ],
       [ "rail mount", 1 ],
@@ -153,7 +156,7 @@
       [ "underbarrel mount", 1 ]
     ],
     "faults": [ "fault_gun_blackpowder", "fault_gun_dirt" ],
-    "flags": [ "RELOAD_EJECT" ]
+    "flags": [ "RELOAD_EJECT", "SCRAP_WEAPON", "SCRAP_WEAPON" ]
   },
   {
     "id": "pipe_rifle_revolver",
@@ -161,7 +164,7 @@
     "type": "GUN",
     "reload_noise_volume": 10,
     "name": { "str": "handmade pepperbox carbine", "str_pl": "handmade pepperbox carbines" },
-    "description": "A homemade rifle version of a crude precursor to the revolver, consisting of a six-barreled detachable cylinder and a stock housing a simple trigger mechanism. After a barrel was fired, the entire cylinder is rotated into the next position by hand. Unlike a traditional revolver, it is a huge pain in the ass to reload. Also unlike a traditional revolver, accepts cylinders of differen calibers.",
+    "description": "A homemade rifle version of a crude precursor to the revolver, consisting of a six-barreled detachable cylinder and a stock housing a simple trigger mechanism. After a barrel was fired, the entire cylinder is rotated into the next position by hand. Unlike a traditional revolver, it is a huge pain in the ass to reload. Also unlike a traditional revolver, accepts cylinders of different calibers.",
     "weight": "6500 g",
     "volume": "1 L",
     "price": 15000,
@@ -192,13 +195,14 @@
 		[ "32", [ "pipe_rifle_cylinder_308" ] ] 
 				 ],
     "valid_mod_locations": [
-      [ "sling", 1 ],
+      [ "sling", 1 ],  
       [ "stock", 1 ],
       [ "grip mount", 1 ],
       [ "rail mount", 1 ],
       [ "sights mount", 1 ],
       [ "underbarrel mount", 1 ]
-    ]
+    ],
+	  "flags": [ "SCRAP_WEAPON" ]
   },
   {
     "id": "pipe_pistol_revolver",
@@ -206,7 +210,7 @@
     "type": "GUN",
     "reload_noise_volume": 10,
     "name": { "str": "handmade pepperbox pistol", "str_pl": "handmade pepperbox pistols" },
-    "description": "A homemade version of a crude precursor to the revolver, consisting of a six-barreled detachable cylinder and a stock housing a simple trigger mechanism.  Unlike a traditional revolver, it is a huge pain in the ass to reload. Also unlike a traditional revolver, accepts cylinders of differen calibers.",
+    "description": "A homemade version of a crude precursor to the revolver, consisting of a six-barreled detachable cylinder and a stock housing a simple trigger mechanism.  Unlike a traditional revolver, it is a huge pain in the ass to reload. Also unlike a traditional revolver, accepts cylinders of different calibers.",
     "weight": "2000 g",
     "volume": "500 ml",
     "price": 5000,
@@ -227,21 +231,23 @@
     "reload": 200,
     "barrel_length": "300 ml",
 	"magazines": [ 
-					[ "9mm", [ "pipe_pistol_cylinder" ] ], 
-					[ "45", [ "pipe_pistol_cylinder_45" ] ], 
-					[ "460", [ "pipe_pistol_cylinder_45" ] ], 
-					[ "38", [ "pipe_pistol_cylinder" ] ], 
-					[ "40", [ "pipe_pistol_cylinder_40" ] ], 
-					[ "10mm", [ "pipe_pistol_cylinder_40" ] ], 
-					[ "357sig", [ "pipe_pistol_cylinder" ] ] ],
+				  [ "9mm", [ "pipe_pistol_cylinder" ] ], 
+				  [ "45", [ "pipe_pistol_cylinder_45" ] ], 
+				  [ "460", [ "pipe_pistol_cylinder_45" ] ], 
+				  [ "38", [ "pipe_pistol_cylinder" ] ], 
+				  [ "40", [ "pipe_pistol_cylinder_40" ] ], 
+				  [ "10mm", [ "pipe_pistol_cylinder_40" ] ], 
+				  [ "357sig", [ "pipe_pistol_cylinder" ] ] ],
     "valid_mod_locations": [
       [ "sling", 1 ],
+	  [ "makeshift bore", 1 ],  
       [ "stock", 1 ],
       [ "grip mount", 1 ],
       [ "rail mount", 1 ],
       [ "sights mount", 1 ],
       [ "underbarrel mount", 1 ]
-    ]
+    ],
+	"flags": [ "SCRAP_WEAPON" ]
   },
   {
     "id": "surv_hand_cannon",
@@ -270,7 +276,7 @@
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "barrel", 1 ],
-      [ "bore", 1 ],
+	  [ "makeshift bore", 1 ],
       [ "grip", 1 ],
       [ "sights", 1 ],
       [ "stock", 1 ],
@@ -278,7 +284,7 @@
       [ "rail mount", 1 ]
     ],
     "faults": [ "fault_gun_blackpowder", "fault_gun_dirt" ],
-    "flags": [ "RELOAD_ONE", "NEVER_JAMS", "RELOAD_EJECT" ]
+    "flags": [ "RELOAD_ONE", "NEVER_JAMS", "RELOAD_EJECT", "SCRAP_WEAPON" ]
 	},
   {
     "id": "surv_six_shooter",
@@ -308,7 +314,7 @@
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "barrel", 1 ],
-      [ "bore", 1 ],
+	  [ "makeshift bore", 1 ],
       [ "grip", 1 ],
       [ "sights", 1 ],
       [ "stock", 1 ],
@@ -316,7 +322,7 @@
       [ "rail mount", 1 ]
     ],
     "faults": [ "fault_gun_blackpowder", "fault_gun_dirt" ],
-    "flags": [ "RELOAD_ONE", "NEVER_JAMS", "RELOAD_EJECT" ]
+    "flags": [ "RELOAD_ONE", "NEVER_JAMS", "RELOAD_EJECT", "SCRAP_WEAPON" ]
   },
   {
     "id": "m2browning_rebuilt",

@@ -3,7 +3,7 @@
     "id": "pipe_retool_22",
     "type": "GUNMOD",
     "name": { "str": ".22 handmade conversion kit" },
-    "description": "Modifies your handmade gun to fire .22lr. Too simple and crude to be applied to anything not made out of shoestring and gum.",
+    "description": "Modifies your handmade gun to fire .22. Too simple and crude to be applied to anything not made out of shoestring and gum.",
     "weight": "114 g",
     "volume": "250 ml",
     "integral_volume": 0,
@@ -11,8 +11,8 @@
     "material": "steel",
     "symbol": ":",
     "color": "green",
-    "location": "bore",
-    "mod_targets": [ "rifle_pipe_slam", "rifle_pipe_fourshot", "surv_six_shooter" ],
+    "location": "makeshift bore",
+    "mod_targets": [ "rifle", "pistol" ],
     "ammo_modifier": "22"
   },
     {
@@ -27,8 +27,8 @@
     "material": "steel",
     "symbol": ":",
     "color": "green",
-    "location": "bore",
-    "mod_targets": [ "rifle_pipe_slam", "surv_six_shooter" ],
+    "location": "makeshift bore",
+    "mod_targets": [ "rifle", "pistol" ],
     "ammo_modifier": [ "9mm", "38", "357sig"]
   },
   {
@@ -43,8 +43,9 @@
     "material": "steel",
     "symbol": ":",
     "color": "green",
-    "location": "bore",
-    "mod_targets": [ "rifle_pipe_slam", "surv_hand_cannon" ],
+    "location": "makeshift bore",
+	"acceptable_ammo": "44", 
+    "mod_targets": [ "rifle", "pistol" ],
     "ammo_modifier": [ "223", "300blk" ]
   },
   {
@@ -59,8 +60,8 @@
     "material": "steel",
     "symbol": ":",
     "color": "green",
-    "location": "bore",
-    "mod_targets": [ "rifle_pipe_slam"],
+    "location": "makeshift bore",
+    "mod_targets": [ "rifle", "pistol" ],
     "ammo_modifier": [  "762", "762R", "308", "3006", "32", "223", "300blk" ]
   },
   {
@@ -75,8 +76,8 @@
     "material": "steel",
     "symbol": ":",
     "color": "green",
-    "location": "bore",
-    "mod_targets": [ "rifle_pipe_slam", "surv_six_shooter" ],
+    "location": "makeshift bore",
+    "mod_targets": [ "rifle", "pistol" ],
 	"ammo_modifier": [ "45", "460" ]
   },
   {
@@ -91,8 +92,8 @@
     "material": "steel",
     "symbol": ":",
     "color": "green",
-    "location": "bore",
-    "mod_targets": [ "rifle_pipe_slam", "surv_six_shooter" ],
+    "location": "makeshift bore",
+    "mod_targets": [ "rifle", "pistol" ],
     "ammo_modifier": "46"
   },
   {
@@ -107,8 +108,8 @@
     "material": "steel",
     "symbol": ":",
     "color": "green",
-    "location": "bore",
-    "mod_targets": [ "rifle_pipe_slam", "surv_six_shooter" ],
+    "location": "makeshift bore",
+    "mod_targets": [ "rifle", "pistol" ],
     "ammo_modifier": "57"
   }
 ]

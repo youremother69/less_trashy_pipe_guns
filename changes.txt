@@ -43,12 +43,18 @@ version 0.4
 	2. Several scrap weapons updated with the ability to accept conversion kits.
 	3. Renames the "panzerbuechse" to a more easily understandable "anti-materiel rifle".
 	4. Added several missing crafting recipes.
+
+version 0.5
+
+	1. Custom modslot for scrap conversion kits added.
+	2. Some internal designations reshuffled.
+	3. Scrap weapon tag added.
+	4. Fix for conversion kit related debug messages slapped together on the knee.
+	5. Itemgroups added to allow some of the items to spawn in the wild.
+	
 	
 	Outstanding issues:
-		>Caliber assignment will need rebalancing.
 		>Weight and volume are more or less arbitrary at the moment.
 		>Same variant rifles loaded different calibers stack for some reason.
 		>Weapons do not update their weight when reloaded, vanilla issue.
 		>ASCII art and icons havent been touched.
-		>Caliber conversion kits throw up inconsequential errors on loading.
-		>UI displays ids instead of item names when examining a conversion kit.

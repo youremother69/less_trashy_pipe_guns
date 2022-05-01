@@ -1,6 +1,9 @@
 # Pipe Guns Detrashified
 
-<br>The goal of this mod is to add usability and variety to scrap firearms. This is achived mainly by (1) creating a niche for basic pipe guns, namely high burst damage at the cost of ammo efficiency, (2) intruducing additional makeshift firearms in different tiers with different crafting requirements, as well as  scrap weapon exclusive gunmods and (3) allowing makeshift firearms to use several different calibers in various ways and by various methods.
+<br>The goal of this mod is to add usability and variety to scrap firearms. This is achived mainly by 
+<br> -Creating a niche for basic pipe guns, namely high burst damage at the cost of ammo efficiency. 
+<br> -Intruducing additional makeshift firearms in different tiers with different crafting requirements, as well as  scrap weapon exclusive gunmods. 
+<br> -Allowing makeshift firearms to use several different calibers in various ways and by various methods.
 
 <br>1. Pipe guns have been merged and new ones added. Now there are 4 makeshift "slam fire" guns instead of the basic pipe guns, which all accept a wide range of bullet calibers at the cost of ammo efficiency and fulfill different roles. The basic "pipe gun: XX" has been remade into the "slam fire pipe", which accepts a lot of pistol calibers with the option of swapping out the barrel to be able to use a variety of individual calibers. A 4-barreled and a 2-barreled variants in pistol and rifle calibers respectively have been added in order to have a high burst damage option in the early hobo phase. All 3 carry a 15% damage penalty compared to factory made guns for balance reasons, but also in order to reflect that random commercially avaliable pipes dont make for good ballistics. A "slam fire shotgun" was also added but without the penalty.
 

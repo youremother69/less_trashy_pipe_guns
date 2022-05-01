@@ -61,7 +61,7 @@
     "symbol": ":",
     "color": "green",
     "location": "makeshift bore",
-    "mod_targets": [ "rifle", "pistol" ],
+    "mod_targets": [ "rifle" ],
     "ammo_modifier": [  "762", "762R", "308", "3006", "32", "223", "300blk" ]
   },
   {

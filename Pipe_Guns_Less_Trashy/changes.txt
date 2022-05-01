@@ -1,0 +1,60 @@
+	The general goal of this mod is to create a niche for pipe rifles in the hobo phase, featuring adequate burst damage offset by inferior ammo economy.
+	The intended performance of these guns is to be able to land a guaranteed kill on a single average enemy before needing to retreat in order to reload.
+
+version 0.1
+
+	1. 	"pipe rifle: XX" merged into "pipe rifle: slam fire" and changed item description, now takes various pistol caliber rounds. Removed mechanics requirement for crafting.
+	2. 	"pipe rifle: pepperbox" added. 4-barrel variant of the pipe rifle, takes various pistol caliber rounds, reloads one barrel at a time, fires all barrels at the same time.
+	3. 	"pipe rifle: double barrel" added. 2-barrel variant of the pipe rifle, takes various rifle caliber rounds, reloads one barrel at a time, fires both barrels at the same time.
+	4. 	Merged all rifle caliber pipe rifles into the double barrel variant.
+	5. 	Added a 10-round makeshift STANAG mag variant.
+	6. 	Renamed both STANAG makeshift mags to fit with the rest of them.
+	7.	Adjusted crafting recipes to reflect the changes.
+	
+version 0.2
+
+	1. "slam fire: single shot" now has a 0.85x ranged damage modifier. Removed flat damage modifier. Accepts more ammo types.
+	2. "slam fire: double barrel", now has 0.9x ranged damage modifier. Removed flat damage modifier.
+	3. "slam fire: four-shot" now has 0.85x ranged damage modifier. Weight and volume increased. Accepts more pistol caliber ammo types.
+	3. "slam fire: six-shot" added. 6 barrel variant of the pipe rifle, takes smallest pistol caliber rounds.
+	4. "peppebox revolver rifle" added. 6 manually rotated barrels. Heavy and cumbersome, but comparable ballistic performance to factory guns.
+	
+		Dynamic range damage modifier added in order to reinforce the idea of pipe guns having inferior ammo economy, while still posessing adequate burst DPS.
+		Flat damage modifiers removed as those are more appropriate for reflecting factory made firearms' minimal ballistic performance differences around a single caliber, and are unfit to use with a multi-caliber gun due to vast differences in bullet damage.
+		Offset by the ability to accept almost all common calibers divided between the double barrel and the pepperbox.
+		
+		Intended performance is not affected in practicality, the nerf solely affects ammo economy.
+
+version 0.3
+
+	1. "pepperbox revolver" added. Pistol variant of the pepperbox revolver rifle.	
+	2. "panzerbuechse '4X" added. An upgraded ".50 caliber rifle" with much higher crafting requirements. Performs close to the "Serbu" .50 rifle.
+	3. "handmade handcannon" now actually packs a punch.
+	4. "survivor six-shooter" now accepts more unicorn calibers.
+	5. "double barrel" is now "slam fire rifle", "four shot" is now "slam fire carbine"
+	6. "slam fire: six-shot" removed.
+	7. "handmade handcannon" now actually packs a punch.
+	
+	8. "44_casehead" requirement added. Currently unused.
+
+version 0.4
+
+	1. Several scrap weapon exclusive conversion kits added.
+	2. Several scrap weapons updated with the ability to accept conversion kits.
+	3. Renames the "panzerbuechse" to a more easily understandable "anti-materiel rifle".
+	4. Added several missing crafting recipes.
+
+version 0.5
+
+	1. Custom modslot for scrap conversion kits added.
+	2. Some internal designations reshuffled.
+	3. Scrap weapon tag added.
+	4. Fix for conversion kit related debug messages slapped together on the knee.
+	5. Itemgroups added to allow some of the items to spawn in the wild.
+	
+	
+	Outstanding issues:
+		>Weight and volume are more or less arbitrary at the moment.
+		>Same variant rifles loaded different calibers stack for some reason.
+		>Weapons do not update their weight when reloaded, vanilla issue.
+		>ASCII art and icons havent been touched.

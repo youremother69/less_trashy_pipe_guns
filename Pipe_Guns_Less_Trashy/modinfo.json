@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "pipe_guns_nontrash",
+    "name": "Pipe Guns Detrashified",
+    "authors": [ "Youre Mother" ],
+    "description": "Changes base pipe guns to be more useful while not being too useful.",
+    "category": "items",
+    "dependencies": [ "dda" ]
+  }
+]

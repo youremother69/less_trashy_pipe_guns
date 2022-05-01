@@ -1,0 +1,46 @@
+[
+  {
+    "type": "item_group",
+    "id": "guns_pistol_improvised",
+    "//": "Makeshift or otherwise poor quality pistols.",
+    "items": [
+      { "item": "pipe_rifle_revolver", "prob": 100, "charges-min": 0, "charges-max": 6 },
+	  { "item": "pipe_pistol_revolver", "prob": 100, "charges-min": 0, "charges-max": 6 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_rifle_improvised",
+    "//": "Makeshift or otherwise poor quality rifles.",
+    "items": [
+      { "item": "rifle_pipe_slam", "prob": 60 },
+      { "item": "rifle_pipe_double", "prob": 30 },
+      { "item": "rifle_pipe_fourshot", "prob": 60 },
+      { "item": "rifle_pipe_shot", "prob": 60 },
+	  { "item": "pipe_rifle_revolver", "prob": 20 },
+	  { "item": "m2browning_rebuilt", "prob": 10 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mags_pistol_makeshift",
+    "//": "Makeshift or otherwise poor quality pistol magazines.",
+    "items": [
+      { "item": "pipe_pistol_cylinder", "prob": 60 },
+      { "item": "pipe_pistol_cylinder_40", "prob": 60 },
+      { "item": "pipe_pistol_cylinder_45", "prob": 60 }
+
+	]
+  },
+    {
+    "type": "item_group",
+    "id": "mags_rifle_makeshift",
+    "//": "Makeshift or otherwise poor quality rifle magazines.",
+    "items": [ 
+		{ "item": "survivor223mag", "prob": 50 },
+		{ "item": "survivor223mag_large", "prob": 50 },
+		{ "item": "pipe_rifle_cylinder", "prob": 50 },
+		{ "item": "pipe_rifle_cylinder_308", "prob": 50 }	
+	]
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "id": "SCRAP_WEAPON",
+    "type": "json_flag",
+    "context": [ "GUN" ],
+    "info": "This weapon is an intricate construct of shoestring and gum. Looser tolerances allow for firing multiple calibers at the cost of ballistic performance."
+  }
+]

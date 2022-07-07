@@ -13,5 +13,29 @@
 		[ "bp_44fmj", -1 ]
       ]
     ]
+  },
+    {
+    "id": "46_casehead",
+    "type": "requirement",
+    "//": "References needed for boltfaces and magazines using .45acp or derivatives",
+    "tools": [
+      [
+        [ "46mm_casing", -1 ],
+        [ "46mm", -1 ],
+        [ "bp_46mm", -1 ]
+      ]
+    ]
+  },
+   {
+    "id": "57_casehead",
+    "type": "requirement",
+    "//": "References needed for boltfaces and magazines using .45acp or derivatives",
+    "tools": [
+      [
+        [ "57mm_casing", -1 ],
+        [ "57mm", -1 ],
+        [ "bp_57mm", -1 ]
+      ]
+    ]
   }
 ]

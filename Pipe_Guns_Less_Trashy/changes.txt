@@ -57,9 +57,14 @@ version 0.6
 	1. Custom subcategory "firearms" added to the crafting menu.
 	2. Moved all scrap firearms to the "firearm" subcategory.
 	3. Normalized some item names.
-	4. Reintroduced the Luty SMG and its recipe, allowed it to accept caliber conversion kits, and added 2 new handmade magazines intended for the Luty.
+	4. Ported over the Luty SMG and its recipe from Craftable Guns Pack, allowed it to accept caliber conversion kits, and added 2 new handmade magazines intended for the Luty.
 	5. Added a handloaded version of the 40x46mm frag grenade.
 	6. Added the "handmade double barrel shotgun" as a possible ingredient to the "handmade combination gun". Previously only accepted the real deal.
+
+version 0.7
+
+	1. Added flintlock variants to the pepperbox rifle and pistol.
+	2. Fixed up itemgroups to include new and ported items.
 	
 	
 	Outstanding issues:
@@ -67,4 +72,3 @@ version 0.6
 		>Same variant rifles loaded different calibers stack for some reason.
 		>Weapons do not update their weight when reloaded, vanilla issue.
 		>ASCII art and icons havent been touched.
-		>Itemgroups incomplete, preventing some items from spawning in the wild.

@@ -23,6 +23,12 @@
   },
   {
     "type": "item_group",
+    "id": "guns_smg_improvised",
+    "//": "Makeshift or otherwise poor quality rifles.",
+    "items": [ { "item": "smg_9mm", "prob": 60 } ]
+  },
+  {
+    "type": "item_group",
     "id": "mags_pistol_makeshift",
     "//": "Makeshift or otherwise poor quality pistol magazines.",
     "items": [
@@ -42,5 +48,53 @@
 		{ "item": "pipe_rifle_cylinder", "prob": 50 },
 		{ "item": "pipe_rifle_cylinder_308", "prob": 50 }	
 	]
+  },
+    {
+    "type": "item_group",
+    "id": "mags_smg_makeshift",
+    "//": "Makeshift or otherwise poor quality rifle magazines.",
+    "items": [ 
+		{ "item": "survivor_57_mag", "prob": 50 },
+		{ "item": "survivor_46_mag", "prob": 50 },
+		{ "item": "survivor9mm_mag", "prob": 50 }
+	]
+  },
+    {
+    "type": "item_group",
+    "id": "antique",
+    "ammo": 75,
+    "magazine": 100,
+    "subtype": "distribution",
+    "entries": [
+
+     { "item": "flintlock_rifle_revolver", "prob": 4 },
+     { "item": "flintlock_pistol_revolver", "prob": 4 },
+     { "item": "flintlock_rifle_cylinder", "prob": 4 },
+	 { "item": "flintlock_pistol_cylinder", "prob": 4 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "antique_rare",
+    "subtype": "distribution",
+    "entries": [
+
+     { "item": "flintlock_rifle_revolver", "prob": 4 },
+     { "item": "flintlock_pistol_revolver", "prob": 4 },
+     { "item": "flintlock_rifle_cylinder", "prob": 4 },
+	 { "item": "flintlock_pistol_cylinder", "prob": 4 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "antique_bank_vault",
+    "subtype": "distribution",
+    "entries": [
+
+     { "item": "flintlock_rifle_revolver", "prob": 4 },
+     { "item": "flintlock_pistol_revolver", "prob": 4 },
+     { "item": "flintlock_rifle_cylinder", "prob": 4 },
+	 { "item": "flintlock_pistol_cylinder", "prob": 4 }
+    ]
   }
 ]

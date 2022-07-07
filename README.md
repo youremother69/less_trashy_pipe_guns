@@ -17,4 +17,6 @@
 
 <br>Multi-caliber, scrap weapon exclusive conversion kits added. This was done in order to allow unicorn calibers to be useful instead of just lying in the corner of your base, and to add utility to scrap firearms.
 
+<br>5. Handmade Luty SMG reintroduced, accept a variety of caliber conversion kits and respective makeshift magazines.
+
 <br>More multi-caliber options on the way.

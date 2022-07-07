@@ -1,5 +1,7 @@
 # Pipe Guns Detrashified
 
+<br>TL;DR:Changes base pipe guns to be more useful while not being too useful, adds versatility and adaptability to scrap firearms, as well as expands the scrap gun arsenal to fill some application niches.
+
 <br>The goal of this mod is to add usability and variety to scrap firearms. This is achived mainly by 
 <br> -Creating a niche for basic pipe guns, namely high burst damage at the cost of ammo efficiency
 <br> -Intruducing additional makeshift firearms in different tiers with different crafting requirements, as well as  scrap weapon exclusive gunmods

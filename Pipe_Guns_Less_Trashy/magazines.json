@@ -131,5 +131,43 @@
     "reliability": 1,
     "reload_time": 150,
 	"flags": [ "MAG_BULKY" ]
-	}
+	},
+   {
+    "id": "survivor_57_mag",
+    "looks_like": "mp5mag",
+    "type": "MAGAZINE",
+    "name": { "str": "5.7mm makeshift magazine" },
+    "description": "An improvised 20-round straight single-stack box magazine consisting of little more than a bent sheet of steel held together by duct tape and hope, for use with Luty SMG.",
+    "weight": "300 g",
+    "volume": "750 ml",
+    "price": 4000,
+    "price_postapoc": 50,
+    "material": "steel",
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": "57",
+    "capacity": 20,
+    "reliability": 1,
+    "reload_time": 160,
+    "flags": [ "MAG_COMPACT" ]
+  },
+     {
+    "id": "survivor_46_mag",
+    "looks_like": "mp5mag",
+    "type": "MAGAZINE",
+    "name": { "str": "4.6mm makeshift magazine" },
+    "description": "An improvised 20-round straight single-stack box magazine consisting of little more than a bent sheet of steel held together by duct tape and hope, for use with Luty SMG.",
+    "weight": "300 g",
+    "volume": "750 ml",
+    "price": 4000,
+    "price_postapoc": 50,
+    "material": "steel",
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": "46",
+    "capacity": 20,
+    "reliability": 1,
+    "reload_time": 160,
+    "flags": [ "MAG_COMPACT" ]
+  }
 ]

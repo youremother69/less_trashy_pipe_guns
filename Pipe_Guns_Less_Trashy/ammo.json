@@ -1,0 +1,12 @@
+[ {
+    "id": "40x46mm_makeshift_frag",
+    "copy-from": "40x46mm_grenade",
+    "type": "AMMO",
+    "name": { "str": "40x46mm makeshift frag" },
+    "description": "A low velocity makeshift 40x46mm fragmentation grenade. Handloaded, so its performance is inferior to factory loaded rounds.",
+    "weight": "200 g",
+    "damage": { "damage_type": "bullet", "amount": 150, "armor_penetration": 20 },
+    "casing": "40x46mm_m118_casing",
+    "extend": { "effects": [ "FRAG" ] }
+  }
+]

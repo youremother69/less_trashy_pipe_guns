@@ -52,9 +52,19 @@ version 0.5
 	4. Fix for conversion kit related debug messages slapped together on the knee.
 	5. Itemgroups added to allow some of the items to spawn in the wild.
 	
+version 0.6
+
+	1. Custom subcategory "firearms" added to the crafting menu.
+	2. Moved all scrap firearms to the "firearm" subcategory.
+	3. Normalized some item names.
+	4. Reintroduced the Luty SMG and its recipe, allowed it to accept caliber conversion kits, and added 2 new handmade magazines intended for the Luty.
+	5. Added a handloaded version of the 40x46mm frag grenade.
+	6. Added the "handmade double barrel shotgun" as a possible ingredient to the "handmade combination gun". Previously only accepted the real deal.
+	
 	
 	Outstanding issues:
 		>Weight and volume are more or less arbitrary at the moment.
 		>Same variant rifles loaded different calibers stack for some reason.
 		>Weapons do not update their weight when reloaded, vanilla issue.
 		>ASCII art and icons havent been touched.
+		>Itemgroups incomplete, preventing some items from spawning in the wild.

@@ -77,7 +77,7 @@
     "symbol": ":",
     "color": "green",
     "location": "makeshift bore",
-    "mod_targets": [ "rifle", "pistol" ],
+    "mod_targets": [ "rifle", "pistol", "smg" ],
 	"ammo_modifier": [ "45", "460" ]
   },
   {
@@ -93,7 +93,7 @@
     "symbol": ":",
     "color": "green",
     "location": "makeshift bore",
-    "mod_targets": [ "rifle", "pistol" ],
+    "mod_targets": [ "rifle", "pistol", "smg" ],
     "ammo_modifier": "46"
   },
   {
@@ -109,7 +109,7 @@
     "symbol": ":",
     "color": "green",
     "location": "makeshift bore",
-    "mod_targets": [ "rifle", "pistol" ],
+    "mod_targets": [ "rifle", "pistol", "smg" ],
     "ammo_modifier": "57"
   }
 ]

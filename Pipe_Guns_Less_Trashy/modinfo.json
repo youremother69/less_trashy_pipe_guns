@@ -4,7 +4,7 @@
     "id": "pipe_guns_nontrash",
     "name": "Pipe Guns Detrashified",
     "authors": [ "Youre Mother" ],
-    "description": "Changes base pipe guns to be more useful while not being too useful.",
+    "description": "Changes base pipe guns to be more useful while not being too useful, adds versatility and adaptability to scrap firearms, as well as expands the scrap gun arsenal to fill some application niches.",
     "category": "items",
     "dependencies": [ "dda" ]
   }
